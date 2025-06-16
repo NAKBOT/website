@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Chatbot Plugin for WordPress</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      background: #f5f5f5;
+      color: #333;
+    }
+    header {
+      background: #0a0a23;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 2rem;
+    }
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+    .feature {
+      background: white;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      flex: 1 1 250px;
+    }
+    .cta {
+      margin-top: 3rem;
+      text-align: center;
+    }
+    .btn {
+      background: #0a0a23;
+      color: white;
+      padding: 1rem 2rem;
+      border: none;
+      border-radius: 5px;
+      text-decoration: none;
+      font-size: 1.2rem;
+    }
+    footer {
+      background: #222;
+      color: #bbb;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 4rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>AI Chatbot Plugin for WordPress</h1>
+    <p>Enhance your website with a smart, always-on assistant powered by LLM technology.</p>
+  </header>
+  <div class="container">
+    <h2>What It Does</h2>
+    <p>This plugin adds a floating chat window to your WordPress site, connecting to an AI backend (OpenAI, LLaMA, or your local model) to answer visitor questions in real time.</p>
+
+    <div class="features">
+      <div class="feature">
+        <h3>✨ Seamless Integration</h3>
+        <p>One-click installation via custom plugin – works out-of-the-box with your theme.</p>
+      </div>
+      <div class="feature">
+        <h3>🧑‍💻 Powered by LLM</h3>
+        <p>Uses GPT, LLaMA, or LocalAI backends. Choose cloud or self-hosted models.</p>
+      </div>
+      <div class="feature">
+        <h3>⚙️ Customizable</h3>
+        <p>Define system prompts, endpoints, and behavior via config or API.</p>
+      </div>
+      <div class="feature">
+        <h3>💻 Lightweight</h3>
+        <p>Minimal JavaScript footprint. Loads asynchronously with Font Awesome integration.</p>
+      </div>
+    </div>
+
+    <div class="cta">
+      <a class="btn" href="#install">Download Plugin</a>
+    </div>
+
+    <h2 id="install">How to Install</h2>
+    <ol>
+      <li>Download the plugin ZIP file from GitHub or this site.</li>
+      <li>Upload it via WordPress Admin > Plugins > Add New.</li>
+      <li>Activate the plugin and configure your backend endpoint.</li>
+      <li>Done! A floating chat icon appears on your site.</li>
+    </ol>
+
+    <h2>Try It Live</h2>
+    <p><a href="#demo">Launch Demo</a> (or check our GitHub for setup instructions)</p>
+  </div>
+  <footer>
+    &copy; 2025 AI Chatbot Plugin | <a href="https://github.com/example/ai-chatbot-wordpress" style="color: #88f;">GitHub</a>
+  </footer>
+  <script>
+    // Optional interactivity
+    document.querySelector('.btn').addEventListener('click', () => {
+      alert('Redirecting to download...');
+    });
+  </script>
+</body>
+</html>
